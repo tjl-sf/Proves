@@ -6,7 +6,7 @@ width = float(input("Enter the Width of a Cuboid: "))
 height = float(input("Enter the Height of a Cuboid: "))
 
 # Calculate the Volume
-Volume = length * width * height
+Volume = length * width * 3
 
 # Print the Output
 print("The Volume of a Cuboid = %.2f" %Volume);
