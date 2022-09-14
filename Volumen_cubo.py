@@ -5,6 +5,8 @@ length = float(input("Enter the Length of a Cuboid: "))
 width = float(input("Enter the Width of a Cuboid: "))
 height = float(input("Enter the Height of a Cuboid: "))
 
+if length < 0:
+    raise ValueError("No tiene sentido introducir longitud negativa")
 # Calculate the Volume
 Volume = length * width * height;
 
