@@ -1,0 +1,81 @@
+#p2{
+
+    font-size: 2em;
+    color: brown;
+}
+
+p.pclase, h4.pclase{
+    font-size: 2em;
+    color: blue;    
+}
+
+/* no visitat   */
+
+/*a:visited,a:link  {
+    color: rgb(39, 203, 24);
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: wait;
+}
+
+a:hover {
+    color: rgb(24, 27, 203);
+}
+a:active {
+    color: rgb(229, 255, 0);
+}
+*/
+ul.a {
+
+    list-style-type: none;
+    /*list-style-image: url("./projecte/Imatges/logoSF.png");
+    list-style-position: inside;
+    border: saddlebrown 2px dotted;*/
+}
+
+ol.b {
+
+    list-style-type: square;
+    list-style-position: outside;
+    border: saddlebrown 2px dotted;
+}
+
+
+/*div {
+    text-align: justify;
+    text-align-last: center;
+    /*writing-mode: vertical-rl;
+    text-orientation: mixed;*/
+    /*text-transform: capitalize;
+    text-shadow: 5px beige, 10px orangered;
+
+    font-size: medium;
+    max-height: 200px;
+    max-width: 300px;
+    box-sizing: border-box;
+    /**margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin: 10px auto;
+    padding: 10px 2%;
+    
+}
+*/
+
+
+.a1{
+    border: 2px solid rgb(0, 255, 4);
+    background-color: aqua;
+
+}
+
+.a2{
+    border: 2px solid rgb(255, 0, 225);
+    background-color: rgb(18, 46, 46);
+
+}

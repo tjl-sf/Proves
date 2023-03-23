@@ -1,0 +1,378 @@
+<!--<!DOCTYPE html-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./estils2.css">
+    <link rel="stylesheet" href="./estils.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>CSS</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" 
+    crossorigin="anonymous">
+    </script>
+    <style>
+       /** * {
+            margin: 3%;
+            font-size: 0.5em;
+            color: brown;
+
+        }
+        html{
+
+            margin: 3%;
+            font-size: 1em;
+            color: darkgreen;
+
+        }
+        body{
+
+            font-size: 1em;
+            color: darkgoldenrod;
+
+        } **/
+        /*div {
+            font-size: 18px;
+            margin: 0 auto;
+            max-width: 700px;
+        }*/
+
+        img {
+            vertical-align: middle;
+            height: 50px;
+        }
+
+        #contenedor {
+            width: 50%;
+            background-color: salmon;
+            margin: 10px auto;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        .descuento {
+            outline: 3px dashed rgba(0, 0, 255, 0.5);
+            outline-offset: 6px;
+    
+        }
+    
+        p.estirado {
+            letter-spacing: 5px;
+        }
+
+        p.espaciado {
+            line-height: 1.5;
+        }
+
+        /*p{
+            text-align: justify;
+            font-size: 18px;
+            /*white-space: pre-line;
+        }*/
+
+        a {
+            color: salmon;
+            text-decoration: none;
+        }
+
+
+        div.static {
+            
+            position: sticky;
+            top:0;
+            right: 0;
+            border: 5px solid #73AD21;
+            margin: 10px;
+        }
+
+        div.absolute {
+            
+            position: absolute;
+            top: 40px;
+            right: 50px;
+            border: 5px solid #73AD21;
+            margin: 10px;
+        }
+
+        table {
+            overflow-x: auto;
+            border: 1px solid;
+            border-collapse: collapse;
+
+        }
+
+        th {
+            
+            padding: 20px;
+            border: 1px solid;
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            /*vertical-align: bottom;*/
+
+        }
+
+        tr{
+
+            background-color: rgb(154, 206, 206);
+        }
+
+        tr:nth-child(odd) {background-color: #b6d0d0;}
+
+        tr:nth-child(4) {background-color: #b9dc92;}
+        
+        tr:hover{
+
+            background-color: rgb(209, 215, 217);
+        }
+
+        td{
+            
+            border: 1px solid;
+            padding: 15px;
+            text-align: center;
+            /*vertical-align: cent;*/
+
+        }
+
+        .grad {
+            height: 200px;
+            background-image: radial-gradient(circle 120px at 95% 5%,white, yellow, lightblue);
+
+        }
+        table {
+            /*border: 1px solid gray;*/
+            border-collapse: collapse;
+        }
+
+        tr {
+            height: 2rem;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgba(114, 236, 14, 0.322);
+        }
+
+        tr:first-child {
+            background-color: olive;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: rgba(255, 99, 71, 0.616);
+        }
+
+        th,
+        td {
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .col {
+            width: 6rem;
+        }
+
+        .col-ancha {
+            width: 11rem;
+        }
+
+        body {
+            background-color: #fff;
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .splash {
+
+            background-color: #ccc;
+            width: 45%;
+            height: 10rem;
+            margin: 3rem auto;
+            padding: 0.6rem;
+            text-align: center;
+            box-shadow: 10px 10px 5px #ddd;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .oferton {
+            position: relative;
+            margin: 0;
+            width: 15rem;
+            font-size: 3.2rem;
+            text-transform: uppercase;
+            bottom: 4rem;
+            left: 5.5rem;
+            color: red;
+            opacity: 0.3;
+            border: 5px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <div class="splash">
+
+        <h1>Consigue tu promoción en la primera compra</h1>
+
+        <p>Si compras por primera vez en esta tienda, recibirás un descuento de 5 €.</p>
+
+        <p class="oferton">Ofertón</p>
+
+    </div>
+    <hr>
+    <table>
+        <tr class="tabla-encabezado">
+            <th class="col">Nombre</th>
+            <th class="col">Especie</th>
+            <th class="col">Edad</th>
+            <th class="col-ancha">Teléfono del dueño</th>
+        </tr>
+        <tr>
+            <td>Pipo</td>
+            <td>Perro</td>
+            <td>8</td>
+            <td>555 900900</td>
+        </tr>
+        <tr>
+            <td>Gandalf</td>
+            <td>Gato</td>
+            <td>4</td>
+            <td>555 911882</td>
+        </tr>
+        <tr>
+            <td>Micho</td>
+            <td>Gato</td>
+            <td>1</td>
+            <td>555 457747</td>
+        </tr>
+        <tr>
+            <td>Frida</td>
+            <td>Gato</td>
+            <td>11</td>
+            <td>555 332112</td>
+        </tr>
+        <tr>
+            <td>Atos</td>
+            <td>Periquito</td>
+            <td>2</td>
+            <td>555 541112</td>
+        </tr>
+
+    </table>
+    <hr>
+    <div class="grad"></div>
+    
+    <h1>Párrafos con indentaciones y efectos de texto</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et delectus, pariatur placeat labore laboriosam illum
+        officiis nisi necessitatibus dolorum voluptatem. Ipsa alias voluptatibus, cupiditate impedit veritatis
+        molestiae, tempora quam, magni facere nihil dignissimos. Porro quaerat fugit ipsa pariatur est ullam nam?
+        Quaerat sed dolore harum, facilis provident illum, quae nobis id autem odio sint vitae dolorum, quam perferendis
+        veniam! Excepturi quasi voluptate omnis nisi, officia adipisci fugit voluptatem nulla dolorum!</p>
+    <p class="estirado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eveniet! Tempora voluptas
+        doloribus fugiat,
+        quam recusandae sed iste impedit obcaecati hic fuga animi minus quisquam fugit aspernatur iusto exercitationem
+        quis optio expedita laboriosam enim? Aliquid sint laborum iure ullam nihil deleniti veniam distinctio illum
+        iusto voluptatem dolor eum ad nostrum, accusamus quam quasi omnis eligendi deserunt beatae expedita recusandae
+        exercitationem!</p>
+    <p class="espaciado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corporis quidem, amet ullam
+        adipisci magnam
+        libero quaerat facilis eveniet numquam ipsa doloribus! Maxime est optio vero non molestias fugiat doloribus
+        porro harum itaque ratione voluptatem possimus maiores laudantium fugit placeat, delectus similique rerum eius.
+        Fugiat repellendus deserunt corrupti quis, enim et similique doloremque maxime ipsum error quidem sint tenetur,
+        expedita impedit nostrum libero consequuntur eum.</p>
+
+    <div class="taula static">
+        <div class="absolute">Hola Caracola</div>
+        <table>
+            <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Class</th>
+            </tr>
+            <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+            <td>DAM1</td>
+            </tr>
+            <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+            <td>DAM2</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>Altendorf</td>
+                <td>DAM1</td>
+            </tr>
+            <tr>
+                <td>Esther</td>
+                <td>John</td>
+                <td>DAM2</td>
+            </tr>
+        </table>
+    </div>
+
+    <ul class="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+      
+    <ol class="b">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ol>
+
+    <div id="contenedor">
+        <h1>Ofertas en Black Friday</h1>
+        <p>Disfruta de un <span class="descuento">40%</span> de descuento en todas las compras hechas durante el Black
+            Friday.</p>
+
+    </div>
+
+    <div class="contenedor">
+        <h1>Composición del jardín</h1>
+        Durante la primavera veremos florecer las azucenas
+        <img src="./projecte/Imatges/logoSF.png" alt="Azucena">
+        , los claveles
+        <img src="imgs/flores/clavel.jpg" alt="Clavel">
+        , y los humildes geranios.
+        <img src="imgs/flores/geranio.jpg" alt="Geranio">.
+    </div>
+
+    <h1>H. P. Lovecraft, biografía</h1>
+    <p>Howard Phillips Lovecraft (<a href="https://es.wikipedia.org/wiki/Providence_(Rhode_Island)">Providence</a>,
+        Rhode Island; 20 de agosto de 1890-Providence; 15 de marzo de 1937), más
+        conocido como H. P. Lovecraft, fue un escritor estadounidense, autor de novelas y relatos de <a
+            href="https://es.wikipedia.org/wiki/Terror">terror</a> y <a
+            href="https://es.wikipedia.org/wiki/Ciencia_ficci%C3%B3n">ciencia
+            ficción</a>. Se le considera un gran innovador del cuento de terror, al que aportó una mitología propia —los
+        Mitos
+        de Cthulhu—, desarrollada en colaboración con otros autores, actualmente en vigencia.​ Su obra constituye un
+        clásico del horror cósmico, una línea narrativa que se aparta de las tradicionales historias de terror
+        sobrenatural —satanismo, fantasmas—, incluyendo elementos de ciencia ficción como, por ejemplo, razas
+        alienígenas, viajes en el tiempo o existencia de otras dimensiones.​ </p>
+    <a href="#" >Link</a>
+    <a href="#" >This is a link</a>
+    <i class="material-icons">logout</i>
+    <i class="material-icons">favorite</i>
+    <i class="material-icons">attachment</i>
+    <i class="material-icons">computer</i>
+    <i class="material-icons">image</i>
+    <div class="a1">Lorem ipsum dolor sit amet consectetur adipisicing</div>
+    <div class="a2">Lorem ipsum dolor sit amet consectetur adipisicing</div>
+    <!----> <h4>Paragraf prova</h4> 
+    <p>Paràgraf 1: Això és un text de prova</p>
+    <h6>Paràgraf 2 </h6>
+    <h5>Llegua de signes </h5>
+    <p id="p2">Paragraf 4</p>
+    <p class="pclase">Paragraf 3</p>
+    <h4 id="p2" class="pclase" >Paràgraf 4</h4>
+
+</body>
+</html>

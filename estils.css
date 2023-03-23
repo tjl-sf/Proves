@@ -1,0 +1,49 @@
+
+/*p {
+
+    color: cadetblue;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: bisque;
+}
+
+body{
+
+    /*background: fixed url("./projecte/Imatges/flores2.png") 
+    top right no-repeat;
+
+}*/
+
+h4{
+
+    background: rgba(181, 189, 193, 0.5);
+    border-left: 5px solid darkblue;
+    border-left-style: groove;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 5px;
+
+
+}
+
+h6, h5 {
+    outline-style: solid;
+    outline-color: chocolate;
+    outline-width: thick;
+    outline-offset: 3px;
+    font-weight: bold;    
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px rgb(209, 209, 14);
+    font-family: Roboto;
+    border: 3px solid hsla(219, 77%, 10%, 0.5);
+    /**color: rgb(141, 95, 105);**/
+}
+
+h5 {
+
+    /**color: rgba(152, 66, 85,20%);**/
+
+}
+
+
+
